@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'spotifyclone',
     'tailwind',
-    'theme',
+    # 'theme',
 ]
 
 MIDDLEWARE = [
@@ -137,4 +137,4 @@ STATICFILES_DIRS=[
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Tailwind
-TAILWIND_APP_NAME = 'theme'
+# TAILWIND_APP_NAME = 'theme'

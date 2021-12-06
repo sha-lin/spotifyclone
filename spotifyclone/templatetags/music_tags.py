@@ -1,6 +1,6 @@
-from musics.helper import get_audio_length
+from spotifyclone.helper import get_audio_length
 from django.db import models
-from .validators import validate_is_audio
+from spotifyclone.validators import validate_is_audio
 
 class Music(models.Model):
     title=models.CharField(max_length=500)
